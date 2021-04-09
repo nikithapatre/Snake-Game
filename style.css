@@ -1,0 +1,60 @@
+  
+body{
+    height: 100%;
+    background-color: #f8f1f1;
+    background-image: url("https://t3.ftcdn.net/jpg/00/83/62/30/360_F_83623051_Tkn2uz7NFTmeeqmlFszVqRKMjxp2Q2Rk.jpg");
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2.5rem;
+}
+
+.playBtn{
+    text-align: center;
+    
+}
+
+button{
+    transition-duration: 0.4s;
+    border: thin;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 12px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.grid {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    text-align: center;
+    margin: 50px 550px;
+    background: black;
+    
+  }
+  
+  .grid div {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .snake {
+    background: linear-gradient(to bottom left, #ff3300 0%, #ff6600 100%);
+  }
+  
+  .apple {
+    background: linear-gradient(to bottom, #ffff00 0%, #ffff00 100%);
+  }  
